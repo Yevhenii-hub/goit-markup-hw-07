@@ -1,20 +1,5 @@
 @import './utils/variables';
 @import './utils/placeholders';
-@import './mixins' @import './base/normalize';
+@import './mixins';
+@import './base/normalize';
 @import './componetns/page-header';
-
-.team {
-  color: red;
-  @extend %list;
-}
-.footer {
-  @extend %mam;
-  @include border(yellow);
-}
-
-@mixin border($text-color) {
-  border: 1px solid $text-color;
-}
-.header {
-  @include centeredFlex;
-}
