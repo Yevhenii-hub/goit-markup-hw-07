@@ -1,0 +1,36 @@
+.icon-envelope {
+  vertical-align: middle;
+  height: 20px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.icon-phone {
+  vertical-align: middle;
+  height: 20px;
+  width: 16px;
+  margin-right: 10px;
+}
+.icon-box {
+  fill: #afb1b8;
+  display: block;
+  color: #afb1b8;
+}
+.icon-box:hover {
+  fill: #2196f3;
+  padding: 30px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.social {
+  display: flex;
+  height: 20px;
+  width: 20px;
+}
