@@ -1,3 +1,8 @@
+// @media (min-width: 900px) {
+//   min-width: 900px;
+//   color: red;
+//   background-color: green;
+// }
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -9,7 +14,7 @@ h1 {
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
-  color: var(--primary-color);
+  color: $primary-color;
 }
 
 p {
