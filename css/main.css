@@ -313,7 +313,8 @@ ul {
   margin-left: auto;
 }
 
-.logo-header .logo-footer {
+.logo-header,
+.logo-footer {
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
