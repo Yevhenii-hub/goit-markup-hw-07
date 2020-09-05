@@ -1,10 +1,9 @@
 @charset "UTF-8";
-/* roboto-regular - latin_cyrillic */
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local("Roboto"), local("Roboto-Regular"), url("/Font-face/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("/Font-face/roboto-v20-latin_cyrillic-regular.woff") format("woff");
+  src: local("Roboto"), local("Roboto-Regular"), url("../font-face/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../font-face/roboto-v20-latin_cyrillic-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -13,7 +12,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  src: local("Roboto Medium"), local("Roboto-Medium"), url("/Font-face/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("/Font-face/roboto-v20-latin_cyrillic-500.woff") format("woff");
+  src: local("Roboto Medium"), local("Roboto-Medium"), url("../font-face/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../font-face/roboto-v20-latin_cyrillic-500.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -22,7 +21,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: local("Roboto Bold"), local("Roboto-Bold"), url("/Font-face/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("/Font-face/roboto-v20-latin_cyrillic-700.woff") format("woff");
+  src: local("Roboto Bold"), local("Roboto-Bold"), url("../font-face/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../font-face/roboto-v20-latin_cyrillic-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -31,7 +30,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
-  src: local("Roboto Black"), local("Roboto-Black"), url("/Font-face/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("/Font-face/roboto-v20-latin_cyrillic-900.woff") format("woff");
+  src: local("Roboto Black"), local("Roboto-Black"), url("../font-face/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../font-face/roboto-v20-latin_cyrillic-900.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -40,7 +39,7 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("/Font-face/raleway-v17-latin_cyrillic-700.woff2") format("woff2"), url("/Font-face/raleway-v17-latin_cyrillic-700.woff") format("woff");
+  src: local(""), url("../font-face/raleway-v17-latin_cyrillic-700.woff2") format("woff2"), url("../font-face/raleway-v17-latin_cyrillic-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
