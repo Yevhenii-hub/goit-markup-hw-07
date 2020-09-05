@@ -1,6 +1,6 @@
 .header-top {
   border-bottom: 1px solid rgba(47, 48, 58, 0.4);
-  & a {
+  a {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -55,29 +55,28 @@
   display: flex;
   align-items: center;
   border-bottom: 1px solid #ececec;
-}
-.flex-header li {
-  list-style-type: none;
-}
 
-.list {
-  display: flex;
+  li {
+    list-style-type: none;
+  }
 }
 
-.site-nav .list {
-  display: flex;
-  padding-top: 31px;
-  padding-bottom: 31px;
+.site-nav {
+  .list {
+    display: flex;
+    padding-top: 31px;
+    padding-bottom: 31px;
 
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
 
-  color: $primary-color;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+    color: $primary-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
 }
 .line::after {
   display: block;
@@ -132,7 +131,8 @@ use {
 }
 .logotyp {
   margin-right: 85px;
-}
-.logo-header .logotyp {
-  padding: 25px 0;
+
+  .logo-header {
+    padding: 25px 0;
+  }
 }

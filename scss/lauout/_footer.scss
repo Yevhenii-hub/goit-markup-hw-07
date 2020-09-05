@@ -28,6 +28,8 @@
 .footer-messenger {
   justify-content: center;
   align-items: center;
+  margin-right: 61px;
+  height: 118px;
 }
 .position {
   display: block;
@@ -63,10 +65,9 @@
 }
 .send-icon {
   position: absolute;
-  top: 122px;
-  right: -112px;
+  top: 120px;
+  right: 37px;
 }
-
 .disc {
   display: flex;
   justify-content: start;
@@ -78,9 +79,12 @@
   height: 252px;
   align-items: baseline;
 }
-.calc {
-  width: calc((100% - 60px) / 3);
+.footer-adress {
+  margin-right: 67px;
 }
+// .calc {
+//   width: calc((100% - 60px) / 3);
+// }
 .footer-mess {
   display: flex;
 }
@@ -97,7 +101,7 @@
   text-align: left;
   padding-left: 29px;
   top: 108px;
-  right: -149px;
+  right: -2px;
 
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

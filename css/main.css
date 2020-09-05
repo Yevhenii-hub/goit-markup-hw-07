@@ -447,12 +447,6 @@ ul {
   list-style-type: none;
 }
 
-.list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .site-nav .list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -529,7 +523,7 @@ use {
   margin-right: 85px;
 }
 
-.logo-header .logotyp {
+.logotyp .logo-header {
   padding: 25px 0;
 }
 
@@ -762,9 +756,13 @@ h2,
   margin-right: 10px;
 }
 
-.our-people.team {
+.team.our-people {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.team.our-people {
+  background-color: #f5f4fa;
 }
 
 .workers {
@@ -774,15 +772,11 @@ h2,
   background: #f5f4fa;
 }
 
-.team {
-  background-color: #f5f4fa;
-}
-
-.our-team.perfect {
+.perfect.our-team {
   margin-bottom: 50px;
 }
 
-.perfect {
+.perfect.our-team {
   margin-top: 0;
 }
 
@@ -796,6 +790,7 @@ h2,
   letter-spacing: 0.03em;
   text-align: center;
   color: #757575;
+  margin-bottom: 16px;
 }
 
 .continer .people {
@@ -808,8 +803,9 @@ h2,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .people {
@@ -1202,6 +1198,8 @@ h2 .our-clients {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 61px;
+  height: 118px;
 }
 
 .position {
@@ -1244,8 +1242,8 @@ h2 .our-clients {
 
 .send-icon {
   position: absolute;
-  top: 122px;
-  right: -112px;
+  top: 120px;
+  right: 37px;
 }
 
 .disc {
@@ -1269,8 +1267,8 @@ h2 .our-clients {
           align-items: baseline;
 }
 
-.calc {
-  width: calc((100% - 60px) / 3);
+.footer-adress {
+  margin-right: 67px;
 }
 
 .footer-mess {
@@ -1293,7 +1291,7 @@ h2 .our-clients {
   text-align: left;
   padding-left: 29px;
   top: 108px;
-  right: -149px;
+  right: -2px;
   background: #2196f3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

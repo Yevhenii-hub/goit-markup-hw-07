@@ -42,47 +42,56 @@ h2,
   margin-right: 10px;
 }
 
-.our-people.team {
+.team.our-people {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  & {
+    background-color: #f5f4fa;
+  }
 }
 
 .workers {
   display: flex;
   background: #f5f4fa;
 }
-.team {
-  background-color: #f5f4fa;
-}
 
-.our-team.perfect {
+.perfect.our-team {
   margin-bottom: 50px;
-}
-.perfect {
-  margin-top: 0;
+
+  & {
+    margin-top: 0;
+  }
 }
 
-.workers p {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
+.workers {
+  p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
 
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-align: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-align: center;
 
-  color: #757575;
+    color: #757575;
+    margin-bottom: 16px;
+  }
 }
-.continer .people {
-  background-color: $white-collor;
-  width: calc((100% - 90px) / 3);
-  margin-right: 30px;
+.continer {
+  .people {
+    background-color: $white-collor;
+    width: calc((100% - 90px) / 3);
+    margin-right: 30px;
+  }
 }
-.people ul {
-  display: flex;
-  justify-content: space-around;
+.people {
+  ul {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .people {
