@@ -69,13 +69,13 @@
   right: 37px;
 }
 .disc {
-  display: flex;
+  @extend %df;
   justify-content: start;
   padding-left: 0;
 }
 .footer-content {
   position: relative;
-  display: flex;
+  @extend %df;
   height: 252px;
   align-items: baseline;
 }
@@ -86,7 +86,7 @@
 //   width: calc((100% - 60px) / 3);
 // }
 .footer-mess {
-  display: flex;
+  @extend %df;
 }
 .top {
   font-style: normal;

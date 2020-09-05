@@ -43,6 +43,18 @@
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+.btn-centr, .caption, .headline, .headline p, .subject, h2,
+.our-team, .name-team, .workers p, h2 .our-clients, .images h2, .button, .main, .coments {
+  font-family: Roboto;
+  font-style: normal;
+}
+
+.items, .flex-header, .site-nav .list, .bacground-icons, .bacground, .desc, .applications, .social-links, .workers, .people ul, .footer-icon, .social, .box, .regular-clients, .images, .images ul, .button-menu, .disc, .footer-content, .footer-mess {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -341,9 +353,6 @@ ul {
 }
 
 .items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
@@ -434,9 +443,6 @@ ul {
 }
 
 .flex-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -448,9 +454,6 @@ ul {
 }
 
 .site-nav .list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 31px;
   padding-bottom: 31px;
   margin-top: 0px;
@@ -540,8 +543,6 @@ use {
 }
 
 .btn-centr {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -559,8 +560,6 @@ use {
 }
 
 .caption {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -570,8 +569,6 @@ use {
 }
 
 .headline {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -583,8 +580,6 @@ use {
 }
 
 .headline p {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -607,9 +602,6 @@ use {
   border-radius: 4px;
   width: 270px;
   height: 120px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -619,9 +611,6 @@ use {
 }
 
 .bacground {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -643,9 +632,6 @@ use {
 }
 
 .desc {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   position: absolute;
   font-family: Roboto;
   font-style: normal;
@@ -670,8 +656,6 @@ use {
 }
 
 .subject {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -691,9 +675,6 @@ use {
 
 .applications {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin: 0;
 }
 
@@ -704,8 +685,6 @@ use {
 
 h2,
 .our-team {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -716,8 +695,6 @@ h2,
 }
 
 .name-team {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -727,9 +704,6 @@ h2,
 }
 
 .social-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 44px;
   height: 44px;
   -webkit-box-align: center;
@@ -766,9 +740,6 @@ h2,
 }
 
 .workers {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   background: #f5f4fa;
 }
 
@@ -781,8 +752,6 @@ h2,
 }
 
 .workers p {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
@@ -800,9 +769,6 @@ h2,
 }
 
 .people ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -839,9 +805,6 @@ h2,
 }
 
 .footer-icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -854,9 +817,6 @@ h2,
 }
 
 .social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   height: 20px;
   width: 20px;
 }
@@ -906,9 +866,6 @@ h2,
 }
 
 .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -954,9 +911,6 @@ h2,
 }
 
 .regular-clients {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-top: 0;
 }
 
@@ -986,8 +940,6 @@ h2,
 }
 
 h2 .our-clients {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -996,9 +948,6 @@ h2 .our-clients {
 }
 
 .images {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 5px;
@@ -1007,9 +956,6 @@ h2 .our-clients {
 }
 
 .images ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -1030,8 +976,6 @@ h2 .our-clients {
 }
 
 .images h2 {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
@@ -1107,8 +1051,6 @@ h2 .our-clients {
 }
 
 .button {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -1122,9 +1064,6 @@ h2 .our-clients {
 }
 
 .button-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1141,8 +1080,6 @@ h2 .our-clients {
 }
 
 .main {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -1247,9 +1184,6 @@ h2 .our-clients {
 }
 
 .disc {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
@@ -1258,9 +1192,6 @@ h2 .our-clients {
 
 .footer-content {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   height: 252px;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
@@ -1269,12 +1200,6 @@ h2 .our-clients {
 
 .footer-adress {
   margin-right: 67px;
-}
-
-.footer-mess {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .top {
@@ -1429,8 +1354,6 @@ h2 .our-clients {
 }
 
 .coments {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;

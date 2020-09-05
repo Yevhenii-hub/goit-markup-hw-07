@@ -1,5 +1,5 @@
 .desc {
-  display: flex;
+  @extend %df;
   position: absolute;
   font-family: Roboto;
   font-style: normal;
@@ -21,8 +21,7 @@
   background: rgba(47, 48, 58, 0.8);
 }
 .subject {
-  font-family: Roboto;
-  font-style: normal;
+  @extend %font;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -42,7 +41,7 @@
 
 .applications {
   position: relative;
-  display: flex;
+  @extend %df;
   margin: 0;
 
   & .content-java {

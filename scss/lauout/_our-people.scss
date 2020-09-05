@@ -1,7 +1,6 @@
 h2,
 .our-team {
-  font-family: Roboto;
-  font-style: normal;
+  @extend %font;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -11,8 +10,7 @@ h2,
   display: block;
 }
 .name-team {
-  font-family: Roboto;
-  font-style: normal;
+  @extend %font;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -21,7 +19,7 @@ h2,
   text-align: center;
 }
 .social-links {
-  display: flex;
+  @extend %df;
   width: 44px;
   height: 44px;
   align-items: center;
@@ -52,7 +50,7 @@ h2,
 }
 
 .workers {
-  display: flex;
+  @extend %df;
   background: #f5f4fa;
 }
 
@@ -66,8 +64,7 @@ h2,
 
 .workers {
   p {
-    font-family: Roboto;
-    font-style: normal;
+    @extend %font;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
@@ -89,7 +86,7 @@ h2,
 }
 .people {
   ul {
-    display: flex;
+    @extend %df;
     justify-content: center;
   }
 }

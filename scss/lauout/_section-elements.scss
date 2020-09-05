@@ -1,6 +1,5 @@
 .headline {
-  font-family: Roboto;
-  font-style: normal;
+  @extend %font;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -12,8 +11,7 @@
   margin-bottom: 10px;
 
   p {
-    font-family: Roboto;
-    font-style: normal;
+    @extend %font;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
@@ -35,12 +33,12 @@
   border-radius: 4px;
   width: 270px;
   height: 120px;
-  display: flex;
+  @extend %df;
   align-items: center;
   justify-content: center;
 }
 .bacground {
-  display: flex;
+  @extend %df;
   justify-content: center;
 
   width: 270px;

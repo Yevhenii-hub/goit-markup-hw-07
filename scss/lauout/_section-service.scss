@@ -14,8 +14,7 @@
   background-color: gray;
 }
 .btn-centr {
-  font-family: Roboto;
-  font-style: normal;
+  @extend %font;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -31,8 +30,7 @@
   color: #ffffff;
 }
 .caption {
-  font-family: Roboto;
-  font-style: normal;
+  @extend %font;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;

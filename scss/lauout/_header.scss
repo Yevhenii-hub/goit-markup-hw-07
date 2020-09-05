@@ -52,7 +52,7 @@
 }
 
 .flex-header {
-  display: flex;
+  @extend %df;
   align-items: center;
   border-bottom: 1px solid #ececec;
 
@@ -63,7 +63,7 @@
 
 .site-nav {
   .list {
-    display: flex;
+    @extend %df;
     padding-top: 31px;
     padding-bottom: 31px;
 
